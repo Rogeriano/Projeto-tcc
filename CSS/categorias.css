@@ -1,0 +1,41 @@
+/* Formulário de categorias */
+.form-categoria {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.form-categoria input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.form-categoria button {
+    padding: 8px 12px;
+    background-color: #e67e22;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.form-categoria button:hover {
+    background-color: #d35400;
+}
+
+/* Lista de categorias */
+.lista-categorias li {
+    padding: 8px;
+    background-color: #fff;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    list-style: none;
+    border: 1px solid #ddd;
+}

@@ -1,0 +1,70 @@
+/* Formulário de movimentações */
+/* Cores para tipo de movimentação */
+.mov-table td.entrada {
+    color: green;
+    font-weight: bold;
+}
+
+.mov-table td.saida {
+    color: red;
+    font-weight: bold;
+}
+
+
+.form-mov {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 450px;
+    margin-bottom: 20px;
+}
+
+.form-mov input[type="number"],
+.form-mov select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.form-mov button {
+    padding: 10px 15px;
+    background-color: #9b59b6;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-mov button:hover {
+    background-color: #8e44ad;
+}
+
+/* Tabela de movimentações */
+.mov-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.mov-table th, .mov-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.mov-table th {
+    background-color: #9b59b6;
+    color: #fff;
+}
+
+.mov-table tr:hover {
+    background-color: #f0f0f0;
+}

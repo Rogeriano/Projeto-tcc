@@ -1,0 +1,59 @@
+/* Formulário de cadastro de produtos */
+.form-produto {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.form-produto input[type="text"],
+.form-produto input[type="number"],
+.form-produto select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.form-produto button {
+    padding: 10px 15px;
+    background-color: #3498db;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-produto button:hover {
+    background-color: #2980b9;
+}
+
+/* Tabela de produtos */
+.produtos-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.produtos-table th, .produtos-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.produtos-table th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.produtos-table tr:hover {
+    background-color: #f0f0f0;
+}
